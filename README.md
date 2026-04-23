@@ -19,11 +19,12 @@ This project focuses on analyzing customer churn behavior using Python and Power
 - Overall churn rate is approximately 26.5%
 
 ## Files in this Repository
+
 - churn_analysis.py → Data cleaning and analysis
 - churn_distribution.png → Churn visualization
-- contract_vs_churn.png → Contract analysis
-- monthly_charges_vs_churn.png → Pricing impact
-- dashboard.png → Power BI dashboard screenshot
+- contractvschurn.png → Contract analysis
+- monthlychargesvschurn.png → Pricing impact
+- Basic Power BI dashboard.png → Power BI dashboard screenshot
 
 ## Outcome
 This project helps in understanding customer behavior and provides insights that can support data-driven decisions for improving customer retention strategies.
