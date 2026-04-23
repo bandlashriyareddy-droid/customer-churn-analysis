@@ -1,30 +1,50 @@
-# customer-churn-analysis
-## Overview
-This project focuses on analyzing customer churn behavior using Python and Power BI. The goal is to identify patterns and factors that influence customer retention and churn.
+# 📊 Customer Churn Analysis
 
-## Tools & Technologies
+## 🔍 Overview
+This project analyzes customer churn behavior using Python and Power BI to identify key factors affecting customer retention.
+
+## 🛠 Tools & Technologies
 - Python (Pandas, Matplotlib, Seaborn)
 - Power BI
+- CSV Dataset (Telco Customer Churn)
 
-## Key Steps
-- Data cleaning and preprocessing
-- Handling missing values and type conversions
-- Exploratory Data Analysis (EDA)
-- Visualization of churn patterns
+## 📁 Dataset
+- Total Records: 7,043 customers
+- Features: Demographics, services, billing, tenure
+- Target Variable: Churn (Yes = 1, No = 0)
 
-## Key Insights
-- Customers with month-to-month contracts have higher churn
-- Higher monthly charges are associated with increased churn
-- Long-term contracts improve customer retention
-- Overall churn rate is approximately 26.5%
+## ⚙️ Project Workflow
+1. Data Cleaning
+   - Removed unnecessary columns
+   - Handled missing values
+   - Converted data types
 
-## Files in this Repository
+2. Data Analysis (EDA)
+   - Churn distribution
+   - Contract vs churn
+   - Monthly charges vs churn
 
-- churn_analysis.py → Data cleaning and analysis
-- churn_distribution.png → Churn visualization
-- contractvschurn.png → Contract analysis
-- monthlychargesvschurn.png → Pricing impact
-- Basic Power BI dashboard.png → Power BI dashboard screenshot
+3. Visualization
+   - Built charts using Seaborn
+   - Created Power BI dashboard
 
-## Outcome
-This project helps in understanding customer behavior and provides insights that can support data-driven decisions for improving customer retention strategies.
+## 📊 Key Insights
+- 📌 Customers with **month-to-month contracts** churn the most
+- 📌 Higher **monthly charges** increase churn probability
+- 📌 Long-term contracts reduce churn
+- 📌 Overall churn rate ≈ **26.5%**
+
+## 📸 Project Files
+- churn_analysis.py → Data cleaning & analysis
+- churn_distribution.png → Churn distribution
+- contractvschurn.png → Contract vs churn
+- monthlychargesvschurn.png → Monthly charges vs churn
+- Basic Power BI dashboard.png → Dashboard screenshot
+
+## 🎯 Outcome
+This project helps identify customer segments with high churn risk and supports data-driven decision-making for improving retention strategies.
+
+## 🚀 Future Improvements
+- Add churn rate KPI in Power BI
+- Build predictive model using machine learning
+- Enhance dashboard interactivity
